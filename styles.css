@@ -1,11 +1,13 @@
 <style>
 body {
-  background-color: powderblue;
+  background-color: black;
+  color: white;
 }
 h1 {
-  color: blue;
+  font-size: 20pt;
 }
 p {
-  color: red;
+  color: green;
+  font-size: 12;
 }
 </style>
