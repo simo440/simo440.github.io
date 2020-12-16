@@ -15,4 +15,8 @@ border-style: dotted;
 border-width: 2px;
 line-height: 100px;
 }
+ol {list-style-type: letter;
+}
+ul {list-style-type: square;
+}
 </style>
