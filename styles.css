@@ -10,4 +10,9 @@ p {
 color: green;
 font-size: 12pt;
 }
+div {
+border-style: dotted;
+border-width: 2px;
+line-height: 100px;
+}
 </style>
