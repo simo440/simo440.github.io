@@ -15,7 +15,7 @@ border-style: dotted;
 border-width: 2px;
 line-height: 100px;
 }
-ol {list-style-type: letter;
+ol {list-style-type: upper-alpha;
 }
 ul {list-style-type: square;
 }
