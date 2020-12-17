@@ -1,13 +1,14 @@
 <style>
 body {
-  background-color: black;
-  color: white;
+background-color: crimson;
+color: white;
 }
 h1 {
 font-size: 20pt;
+color: white;
 }
 p {
-color: green;
+color: white;
 font-size: 12pt;
 }
 div {
@@ -15,8 +16,10 @@ border-style: dotted;
 border-width: 2px;
 line-height: 100px;
 }
-ol {list-style-type: upper-alpha;
+ol {
+list-style-type: upper-alpha;
 }
-ul {list-style-type: square;
+ul {
+list-style-type: square;
 }
 </style>
