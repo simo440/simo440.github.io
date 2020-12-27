@@ -4,44 +4,6 @@
   <meta charset="utf-8" />
   <title>Kolmas sivu</title>
   <style>
-    <style>
-.item1 { grid-area: header; }
-.item2 { grid-area: nav; }
-.item3 { grid-area: section; }
-.item4 { grid-area: article; }
-.item5 { grid-area: aside; }
-.item6 { grid-area: footer; }
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'nav nav nav nav nav nav'
-    'article article article article aside aside'
-    'section section section section aside aside'
-    'footer footer footer footer footer footer';
-  grid-gap: 10px;
-  background-color: auto;
-  padding: 10px;
-}
-
-.grid-container > div {
-  background-color: green;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
-</style>
-</head>
-<body>
-<div class="grid-container">
-  <div class="item1">Header</div>
-  <div class="item2">Nav</div>
-  <div class="item3">Section</div>  
-  <div class="item4">Article</div>
-  <div class="item5">Aside</div>
-  <div class="item6">Footer</div>
-</div>
 body {
   width: 90%;
   margin-left: auto;
@@ -81,9 +43,7 @@ aside {
   border-left: 15px solid white;
   border-bottom: 10px solid white;
   background-color: red;
-  padding: 90px;
-  height: 175px;
-  width: 160px;
+  padding: 30px;
   text-align: center;
   color: white;
 }
